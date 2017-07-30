@@ -1,0 +1,668 @@
+.line {
+  height: 3px;
+  background-color: #eaeaea;
+  border-radius: 70%;
+}
+.headings {
+  float: left;
+  margin: 0px;
+  color: #666666;
+}
+.anchors {
+  text-decoration: none;
+  color: #7c9c37;
+}
+.footer_divs {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.footer_headings {
+  color: #666666;
+  text-transform: uppercase;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Georgia Regular";
+}
+body div.wrapper {
+  overflow: hidden;
+}
+body div.wrapper header {
+  margin: 0px;
+}
+body div.wrapper header div.contact {
+  height: 36px;
+  overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.contact {
+    height: 80px;
+  }
+}
+body div.wrapper header div.contact ol {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+body div.wrapper header div.contact ol li {
+  float: left;
+  color: #696969;
+  padding: 0px;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.contact ol li {
+    font-size: 15px;
+  }
+}
+body div.wrapper header div.contact ol li.mail {
+  margin-left: 50px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper header div.contact ol li.mail {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.contact ol li.mail {
+    margin-left: 0px;
+  }
+}
+body div.wrapper header div.contact ol li a {
+  text-decoration: none;
+  color: #696969;
+}
+body div.wrapper header div.contact form {
+  float: right;
+  position: absolute;
+  top: 6px;
+  right: 20px;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.contact form {
+    top: 50px;
+  }
+}
+body div.wrapper header div.contact form input {
+  width: 210px;
+  height: 24px;
+  padding-left: 15px;
+  padding-right: 30px;
+  position: relative;
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+body div.wrapper header div.contact form input:focus {
+  box-shadow: 5px 5px 5px gray;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper header div.contact form input {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.contact form input {
+    width: 150px;
+  }
+}
+body div.wrapper header div.contact form a {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  width: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+}
+body div.wrapper header div.contact form a i {
+  transform: scale(0.6);
+}
+body div.wrapper header div.navigation {
+  background-color: #222222;
+  height: 94px;
+  position: relative;
+  border-bottom: 2px solid #7c9c37;
+}
+body div.wrapper header div.navigation h1 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  margin: 0px;
+}
+body div.wrapper header div.navigation h1 a {
+  text-indent: -200px;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  background-image: url("../images/logo2.png");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  margin-top: 20px;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.navigation h1 a {
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    margin-top: 30px;
+  }
+}
+body div.wrapper header div.navigation ul {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  margin-: 0px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper header div.navigation ul {
+    width: 70%;
+    right: 0px;
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.navigation ul {
+    width: 80%;
+    right: 0px;
+    padding-left: 60px;
+  }
+}
+body div.wrapper header div.navigation ul li {
+  width: 110px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0px 15px;
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-right: 1px solid #828282;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper header div.navigation ul li {
+    width: 30%;
+    margin-top: 5px;
+    padding: 0px 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper header div.navigation ul li {
+    width: 30%;
+    margin-top: 5px;
+    padding: 0px 3px;
+    font-size: 10px;
+  }
+}
+body div.wrapper header div.navigation ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body div.wrapper header div.navigation ul li a:hover {
+  color: #7c9c37;
+}
+body div.wrapper header div.navigation ul li a.test {
+  color: #cccccc;
+  text-transform: lowercase;
+}
+body div.wrapper div.carousel {
+  width: 100%;
+  margin: 0px;
+}
+body div.wrapper div.carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+body div.wrapper div.carousel .right {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.carousel .right {
+    width: 20px;
+  }
+}
+body div.wrapper div.carousel .left {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.carousel .left {
+    width: 20px;
+  }
+}
+body div.wrapper div.middle {
+  margin: 0px;
+  padding: 0px;
+}
+body div.wrapper div.middle div.testimonials {
+  height: 170px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper div.middle div.testimonials {
+    height: 300px;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.middle div.testimonials {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+body div.wrapper div.middle div.testimonials p {
+  display: none;
+  margin: 0px;
+  padding: 70px 40px;
+  text-align: center;
+  color: #333333;
+  font-size: 28px;
+  font-style: italic;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.middle div.testimonials p {
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+}
+body div.wrapper div.middle div.grayLine {
+  height: 3px;
+  background-color: #eaeaea;
+  border-radius: 70%;
+  width: 80%;
+  margin: 0px auto;
+}
+body div.wrapper div.middle div.photoBoxes {
+  margin: 0px 20px;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+body div.wrapper div.middle div.photoBoxes ul {
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+}
+body div.wrapper div.middle div.photoBoxes ul li {
+  width: calc(25% - 20px);
+  float: left;
+  margin: 0px;
+  margin-right: 20px;
+  background-color: #f0f0f0;
+}
+body div.wrapper div.middle div.photoBoxes ul li:first-child {
+  margin-left: 10px;
+}
+body div.wrapper div.middle div.photoBoxes ul li:last-child {
+  margin-right: 0px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper div.middle div.photoBoxes ul li {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  body div.wrapper div.middle div.photoBoxes ul li:nth-child(even) {
+    margin-right: 0px;
+  }
+  body div.wrapper div.middle div.photoBoxes ul li:nth-child(3) {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.middle div.photoBoxes ul li {
+    float: none;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+  }
+  body div.wrapper div.middle div.photoBoxes ul li:nth-child(even) {
+    margin-left: 10px;
+  }
+}
+body div.wrapper div.middle div.photoBoxes ul li img {
+  width: 100%;
+}
+body div.wrapper div.middle div.photoBoxes ul li h4 {
+  color: #7c9c37;
+}
+body div.wrapper div.middle div.photoBoxes ul li p {
+  color: #666666;
+  font-size: 14px;
+}
+body div.wrapper div.news {
+  width: 100%;
+  margin: 0px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+body div.wrapper div.news div.inner_news {
+  margin: 0px 20px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+body div.wrapper div.news div.inner_news div.articles {
+  width: 49.5%;
+  float: left;
+  overflow: hidden;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper div.news div.inner_news div.articles {
+    width: 100%;
+    float: none;
+    margin-bottom: 40px;
+  }
+}
+body div.wrapper div.news div.inner_news div.articles h3 {
+  float: left;
+  margin: 0px;
+  color: #666666;
+}
+body div.wrapper div.news div.inner_news div.articles a {
+  text-decoration: none;
+  color: #7c9c37;
+  float: right;
+}
+body div.wrapper div.news div.inner_news div.articles div.gray {
+  height: 3px;
+  background-color: #eaeaea;
+  border-radius: 70%;
+  width: 100%;
+  margin: 20px auto;
+}
+body div.wrapper div.news div.inner_news div.articles ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+}
+body div.wrapper div.news div.inner_news div.articles ul li {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper div.news div.inner_news div.articles ul li {
+    float: none;
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+body div.wrapper div.news div.inner_news div.articles ul li img {
+  float: left;
+  margin-right: 15px;
+}
+body div.wrapper div.news div.inner_news div.articles ul li h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #7c9c37;
+}
+body div.wrapper div.news div.inner_news div.articles ul li p {
+  text-align: justify;
+  padding: 0px 60px;
+  color: #666666;
+  line-height: 20px;
+}
+body div.wrapper div.news div.inner_news div.profiles {
+  width: 49.5%;
+  float: right;
+  overflow: hidden;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper div.news div.inner_news div.profiles {
+    width: 100%;
+    float: none;
+  }
+}
+body div.wrapper div.news div.inner_news div.profiles h3 {
+  float: left;
+  margin: 0px;
+  color: #666666;
+}
+body div.wrapper div.news div.inner_news div.profiles a {
+  text-decoration: none;
+  color: #7c9c37;
+  float: right;
+}
+body div.wrapper div.news div.inner_news div.profiles div.gray {
+  height: 3px;
+  background-color: #eaeaea;
+  border-radius: 70%;
+  width: 100%;
+  margin: 20px auto;
+}
+body div.wrapper div.news div.inner_news div.profiles img {
+  float: left;
+  width: 49%;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+body div.wrapper div.news div.inner_news div.profiles img.right {
+  float: right;
+}
+body div.wrapper div.news div.inner_news div.profiles div.info {
+  float: left;
+  width: 49%;
+  overflow: hidden;
+}
+body div.wrapper div.news div.inner_news div.profiles div.info.right {
+  float: right;
+}
+body div.wrapper div.news div.inner_news div.profiles div.info a {
+  float: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+body div.wrapper footer {
+  background-color: #222222;
+  margin: 0px;
+}
+body div.wrapper footer div.inner_footer {
+  margin: 0px 20px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+body div.wrapper footer div.inner_footer div.one {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper footer div.inner_footer div.one {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper footer div.inner_footer div.one {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+body div.wrapper footer div.inner_footer div.one h3 {
+  color: #666666;
+  text-transform: uppercase;
+}
+body div.wrapper footer div.inner_footer div.one img {
+  width: 100%;
+}
+body div.wrapper footer div.inner_footer div.one p {
+  color: #666666;
+  line-height: 30px;
+}
+body div.wrapper footer div.inner_footer div.one a {
+  text-decoration: none;
+  color: #7c9c37;
+}
+body div.wrapper footer div.inner_footer div.two {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper footer div.inner_footer div.two {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper footer div.inner_footer div.two {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+body div.wrapper footer div.inner_footer div.two h3 {
+  color: #666666;
+  text-transform: uppercase;
+}
+body div.wrapper footer div.inner_footer div.two ul {
+  list-style-type: none;
+  padding: 0px;
+}
+body div.wrapper footer div.inner_footer div.two ul li {
+  height: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #3a3a3a;
+}
+body div.wrapper footer div.inner_footer div.two ul li a {
+  text-decoration: none;
+  color: #7c9c37;
+}
+body div.wrapper footer div.inner_footer div.three {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper footer div.inner_footer div.three {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper footer div.inner_footer div.three {
+    width: 100%;
+  }
+}
+body div.wrapper footer div.inner_footer div.three h3 {
+  color: #666666;
+  text-transform: uppercase;
+}
+body div.wrapper footer div.inner_footer div.three h4 {
+  color: #666666;
+  font-size: 18px;
+  margin: 0px;
+}
+body div.wrapper footer div.inner_footer div.three span {
+  color: #666666;
+  font-size: 12px;
+  display: block;
+}
+body div.wrapper footer div.inner_footer div.three p {
+  color: #666666;
+  margin: 0px;
+  padding: 0px;
+  line-height: 25px;
+}
+body div.wrapper footer div.inner_footer div.three a {
+  text-decoration: none;
+  color: #7c9c37;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+body div.wrapper footer div.inner_footer div.four {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper footer div.inner_footer div.four {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper footer div.inner_footer div.four {
+    width: 100%;
+  }
+}
+body div.wrapper footer div.inner_footer div.four h3 {
+  color: #666666;
+  text-transform: uppercase;
+}
+body div.wrapper footer div.inner_footer div.four ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+body div.wrapper footer div.inner_footer div.four ul li {
+  color: #666666;
+}
+body div.wrapper footer div.inner_footer div.four ul li a {
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+body div.wrapper footer div.inner_footer div.four ul li a:hover {
+  color: #7c9c37;
+}
+body div.wrapper footer div.inner_footer div.four form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  background-color: #353535;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+body div.wrapper footer div.inner_footer div.four form button {
+  width: 80px;
+  height: 30px;
+  background-color: #7c9c37;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+body div.wrapper footer div.final {
+  margin: 0px 20px;
+  padding: 20px;
+  border-top: 1px solid #3a3a3a;
+}
+@media screen and (max-width: 960px) {
+  body div.wrapper footer div.final {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body div.wrapper footer div.final {
+    text-align: center;
+  }
+}
+body div.wrapper footer div.final span {
+  color: #666666;
+}
